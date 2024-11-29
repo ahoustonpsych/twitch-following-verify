@@ -1,1 +1,5 @@
 runtime: nodejs20
+env: standard
+handlers:
+  - url: /.*
+    script: auto
